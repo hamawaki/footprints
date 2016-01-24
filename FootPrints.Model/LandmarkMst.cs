@@ -7,14 +7,16 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FootPrints.API
+namespace FootPrints.Model
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class UserMst
+    public partial class LandmarkMst
     {
-        public int ID { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
+        public int X { get; set; }
+        public int Y { get; set; }
     }
 }

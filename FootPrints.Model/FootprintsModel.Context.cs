@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FootPrints.API
+namespace FootPrints.Model
 {
     using System;
     using System.Data.Entity;

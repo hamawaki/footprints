@@ -7,16 +7,14 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FootPrints.API
+namespace FootPrints.Model
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class UserPositionTbl
+    public partial class UserMst
     {
-        public int Id { get; set; }
-        public int UserID { get; set; }
-        public int X { get; set; }
-        public int Y { get; set; }
+        public int ID { get; set; }
+        public string Name { get; set; }
     }
 }
